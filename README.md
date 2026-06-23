@@ -35,7 +35,7 @@ def monitor():
 
             status = check_website(site)
 
-            print(f"{site:<355} {status}")
+            print(f"{site:<35} {status}")
 
             with open("monitor.log", "a", encoding="utf-8") as f:
                 f.write(
