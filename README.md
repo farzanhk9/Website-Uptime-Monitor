@@ -1,6 +1,6 @@
 import requests
 import time
-from datetime import datetimee
+from datetime import datetime
 
 WEBSITES = [
     "https://google.com",
